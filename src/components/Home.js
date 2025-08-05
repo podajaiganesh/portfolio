@@ -5,8 +5,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShieldAlt, faNetworkWired, faLock, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => {
+  console.log('Home component rendering'); // Debug log
+  
   return (
-    <div className="hero">
+    <div className="hero" style={{ minHeight: '100vh', display: 'flex', alignItems: 'center' }}>
       <Container>
         <Row className="align-items-center">
           <Col lg={6} className="hero-content fade-in">
