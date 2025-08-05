@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShieldAlt, faNetworkWired, faLock, faEye, faCogs, faChartLine, faGraduationCap, faBook, faCloud } from '@fortawesome/free-solid-svg-icons';
+import { faShieldAlt, faNetworkWired, faEye, faCogs, faChartLine, faGraduationCap, faBook, faCloud } from '@fortawesome/free-solid-svg-icons';
 
 const About = () => {
   const learningAreas = [
